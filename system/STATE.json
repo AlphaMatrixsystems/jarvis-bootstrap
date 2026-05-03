@@ -4,24 +4,31 @@
   "mode": "JARVIS",
   "repo": "AlphaMatrixsystems/alpha-matrix-core",
   "branch": "main",
-  "active_build": "004_BUILD_RESULT_RETURN_LAYER",
-  "next_build_number": "007",
-  "last_commit": "0e994a90",
+  "active_build": "009_AUTO_EXECUTE_ON_YES",
+  "next_build_number": "010",
+  "last_commit": "c8f5469c",
   "last_updated": "2026-05-03",
   "system_status": "active",
   "queue": {
     "000_BOOTSTRAP_MORPHEUS_SYSTEM_PRIMER": "APPLIED",
     "002_DAILY_SESSION_PERSISTENCE": "APPLIED",
     "003_DAILY_SESSION_SYNC_TO_ARCHITECT": "APPLIED",
-    "004_BUILD_RESULT_RETURN_LAYER": "READY_TO_APPLY",
+    "004_BUILD_RESULT_RETURN_LAYER": "APPLIED",
     "005_LOCATION_INTELLIGENCE_AND_SESSION_AUDIT": "APPLIED",
-    "006_EXECUTOR_BRIEF_AUTHORITY_LOCK": "APPLIED"
+    "006_EXECUTOR_BRIEF_AUTHORITY_LOCK": "APPLIED",
+    "007_BOOT_LINK_TEST": "APPLIED",
+    "008_LOCATION_LOGIC_UPDATE": "APPLIED",
+    "009_AUTO_EXECUTE_ON_YES": "APPLIED"
   },
   "agents": {
     "jarvis": "ChatGPT — architect, blueprint writer",
     "morpheus": "EC2 Claude Code — executor",
     "zion": "Mac Claude Code — iOS/Xcode",
     "frank_neo": "EC2 voice AI — port 8000"
+  },
+  "endpoints": {
+    "voice_ingest": "http://32.195.193.150:8000/voice_ingest",
+    "note": "ALL input (voice mic + home screen text bar) routes here. Single entry point."
   },
   "priorities": [
     "Alpha Matrix App Store launch",
